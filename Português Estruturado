@@ -1,0 +1,443 @@
+Lista de Exercícios 
+
+Ana Beatriz Vieira 1° DS-B 
+
+1 -Algoritmo "Idade em meses" 
+
+Var 
+
+Ia, Im: inteiro 
+
+Inicio 
+
+escreval("Digite sua idade em anos:") 
+
+leia(ia) 
+
+//processo 
+
+Im<- Ia*12 
+
+//saida 
+
+Escreval("Sua idade em meses é:", Im) 
+
+Fimalgoritmo 
+
+ 
+
+2-Algoritmo "estoque" 
+
+Var 
+
+p1, q1,t: real 
+
+Inicio 
+
+escreval("Digite o preço do produto:") 
+
+leia(p1) 
+
+escreval("Digite a quantidade de produtos:") 
+
+leia(q1) 
+
+//processo 
+
+t<- p1*q1 
+
+//saida 
+
+escreval("O valor total é de:", t) 
+
+Fimalgoritmo 
+
+ 
+
+3- algoritmo "idadeemmeses" 
+
+var 
+
+ana,and,id:inteiro 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o ano atual:") 
+
+leia(ana) 
+
+escreval("Digite seu ano de nascimento:") 
+
+leia(and) 
+
+//calcule 
+
+id<- ana-and 
+
+//saida 
+
+escreval("Sua idade é ou será esse ano:", id) 
+
+Fimalgoritmo 
+
+ 
+
+4- algoritmo "combustível" 
+
+var 
+
+pl,vp,l:real 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o preço do litro do combustível:") 
+
+leia(pl) 
+
+escreval("Digite o valor de pagamento:") 
+
+leia(vp) 
+
+//processo 
+
+l<-vp/pl 
+
+//saida 
+
+escreval("A quantidade de litros será de:", l) 
+
+Fimalgoritmo 
+
+ 
+
+5- algoritmo "terreno" 
+
+var 
+
+area,comp,larg:real 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o valor da largura do terreno:") 
+
+leia(larg) 
+
+escreval("Digite o valor do comprimento do terreno:") 
+
+leia(comp) 
+
+//processo 
+
+area<- larg*comp 
+
+//saida 
+
+escreval("A área do terreno é de:", area) 
+
+Fimalgoritmo 
+
+ 
+
+6- algoritmo "salariominimo" 
+
+var 
+
+sm,sf,smf:real 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o salário-mínimo atual:") 
+
+leia(sm) 
+
+escreval("Digite o salário-mínimo do funcionário:") 
+
+leia(sf) 
+
+//calcule 
+
+smf<- sf/sm 
+
+//saida 
+
+escreval("A quantidade de salários-mínimos que este funcionário recebe é:", smf) 
+
+Fimalgoritmo 
+
+ 
+
+7- algoritmo "somaemultiplicacao" 
+
+var 
+
+n1,n2,n3,R1, RF:real 
+
+inicio 
+
+// entrada 
+
+escreval("Digite o primeiro número:") 
+
+leia(n1) 
+
+escreval("Digite o primeiro número:") 
+
+leia(n2) 
+
+escreval("Digite o primeiro número:") 
+
+leia(n3) 
+
+//calcule 
+
+R1<-n1+n2 
+
+RF<- R1*n3 
+
+//saida 
+
+escreval("O resultado da conta é:", RF) 
+
+Fimalgoritmo 
+
+ 
+
+8- algoritmo "cotacaodolar" 
+
+var 
+
+cd,vd,R:real 
+
+inicio 
+
+//entrada 
+
+Escreval("Digite a cotação do dólar em real brasileiro:") 
+
+leia(cd) 
+
+Escreval("Digite o valor em dólares existente") 
+
+leia(vd) 
+
+//processo 
+
+R<-cd*vd 
+
+//saida 
+
+escreval(" O valor em real brasileiro é:", R) 
+
+Fimalgoritmo 
+
+ 
+
+9- algoritmo "ferraduras" 
+
+var 
+
+qc,F:inteiro 
+
+inicio 
+
+// entrada 
+
+escreval("Digite a quantidade de cavalos para ser equipados:") 
+
+leia(qc) 
+
+//processo 
+
+F<- 4*qc 
+
+//saida 
+
+escreval("O total de ferraduras será", F) 
+
+Fimalgoritmo 
+
+ 
+
+10- algoritmo "percentual" 
+
+var 
+
+pp,pa,np,vr:real 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o preço do produto:") 
+
+leia(pp) 
+
+escreval("Digite o percentual de aumento:") 
+
+leia(pa) 
+
+//processo 
+
+vr<- pp*pa/100 
+
+np<-pp+vr 
+
+//saida 
+
+escreval("O novo preço é:", np) 
+
+escreval("O valor do reajuste foi:", vr) 
+
+Fimalgoritmo 
+
+ 
+
+11- algoritmo "salarioliquido" 
+
+var 
+
+valor1,n2,desc, R1, RF:real 
+
+inicio 
+
+// entrada 
+
+escreval("Digite o valor de hora da aula:") 
+
+leia(valor1) 
+
+escreval("Digite quantas aulas foi dada no mês:") 
+
+leia(n2) 
+
+escreval("Digite o percentual de desconto do INSS:") 
+
+leia(desc) 
+
+//processo 
+
+R1<- valor1*n2 
+
+RF<- R1-desc/100 
+
+//saida 
+
+escreval("O salário líquido é de:", RF) 
+
+Fimalgoritmo 
+
+ 
+
+12- algoritmo "valordeT" 
+
+var 
+
+n1,n2,n3,T:real 
+
+inicio 
+
+//entrada 
+
+escreval("Digite o primeiro número:") 
+
+leia(n1) 
+
+escreval("Digite o segundo número:") 
+
+leia(n2) 
+
+escreval("Digite o terceiro número:") 
+
+leia(n3) 
+
+//calcule 
+
+T<-(n1*(n2 + n3))/2 
+
+//saida 
+
+Escreval("O resultado é:", T) 
+
+Fimalgoritmo 
+
+ 
+
+13-algoritmo "precoautomovel" 
+
+var 
+
+pf,PF1,PF2, PF3:real 
+
+inicio 
+
+// entrada 
+
+escreval("Digite o preço de fábrica") 
+
+leia(pf) 
+
+//processo 
+
+PF1<- pf*0.45 
+
+PF2<- pf*0.28 
+
+PF3<- PF1+PF2 
+
+//saida 
+
+escreval("O preço do automóvel é:",PF3) 
+
+Fimalgoritmo 
+
+ 
+
+14- algoritmo "faturasdepedro" 
+
+var 
+
+salario,fatu1,fatu2,multa1,multa2,total:real 
+
+inicio 
+
+// entrada 
+
+escreval("Digite o seu salário") 
+
+leia(salario) 
+
+escreval("Digite a primeira fatura") 
+
+leia(fatu1) 
+
+escreval("Digite a segunda fatura") 
+
+leia(fatu2) 
+
+//processo 
+
+multa1<- fatu1*2/100 
+
+fatu1<-multa1 
+
+multa2<-fatu2*2/100 
+
+fatu2<-multa2 
+
+total<- salario-fatu1-fatu2 
+
+//saida 
+
+escreval("O resto do salário de Pedro é:", total) 
+
+fimalgoritmo 
+
+ 
