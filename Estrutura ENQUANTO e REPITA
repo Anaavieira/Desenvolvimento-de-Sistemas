@@ -1,0 +1,241 @@
+ESTRUTURA ENQUANTO E REPITA 
+
+1 algoritmo "soma_media" 
+
+var 
+
+cont,n,soma:inteiro 
+
+media:real 
+
+inicio 
+
+repita 
+
+Escreval("Entre com um número:") 
+
+leia (n) 
+
+se n <> 9999 entao 
+
+cont<- cont+1 
+
+soma<- soma+n 
+
+fimse 
+
+ate n = 9999 
+
+media<- soma/cont 
+
+escreval("A soma dos números é:", soma) 
+
+escreval("A média dos números é:",media) 
+
+Fimalgoritmo 
+
+ 
+
+2 algoritmo "par_impar" 
+
+var 
+
+n, contpar,contimpar,cont:inteiro 
+
+inicio 
+
+Repita 
+
+   escreval(" Entre com um número:") 
+
+ leia (n) 
+
+   se n <> 9999 entao 
+
+   se n mod 2= 0 entao 
+
+      contpar<- contpar+1 
+
+   senao 
+
+      contimpar<- contimpar +1 
+
+      fimse 
+
+      fimse 
+
+   ate n =9999 
+
+   escreval("Quantidade de números pares:", contpar) 
+
+   escreval("Quantidade de números ímpar", contimpar) 
+
+Fimalgoritmo 
+
+ 
+
+3  
+
+Algoritmo "n_maior" 
+
+Var 
+
+n,maior:inteiro 
+
+Inicio 
+
+Repita 
+
+Escreval("Digite um número, use ZERO para sair:") 
+
+leia(n) 
+
+se n > maior entao 
+
+maior<- n 
+
+fimse 
+
+ate n=0 
+
+escreval("O maior número é:", maior) 
+
+Fimalgoritmo 
+
+ 
+
+4- Algoritmo "h_trabalhadas" 
+
+Var 
+
+h, n, media, total, qtd: real 
+
+Inicio 
+
+repita 
+
+escreval(" Digite as horas trabalhadas, digite zero para sair: ") 
+
+leia(h) 
+
+se h<>0 entao 
+
+qtd<- qtd+1 
+
+total<- total+h 
+
+fimse 
+
+ate h=0 
+
+media<-total/qtd 
+
+escreval("A quatidade de funcionarios é de :", qtd) 
+
+escreval(" O total de horas trabalhadas é de:", total) 
+
+escreval(" A média é de:", media) 
+
+Fimalgoritmo 
+
+ 
+
+5- Algoritmo "temperatura" 
+
+Var 
+
+temp,n:real 
+
+sair:caracter 
+
+  
+
+Inicio 
+
+repita 
+
+escreval(" Digite a temperatura:") 
+
+leia(n) 
+
+escreval(" escolha uma opção:") 
+
+escreval(" [1] fahrenheit") 
+
+escreval(" [2] celsius") 
+
+leia(temp) 
+
+escolha (temp) 
+
+caso 1 
+
+temp<- (n-32)/1.8 
+
+caso 2 
+
+temp<- (n*1.8)+32 
+
+fimescolha 
+
+escreval(" Resultado:", temp) 
+
+escreval(" Deseja repetir o processo? Digite sim") 
+
+leia(sair) 
+
+ate sair ="nao" 
+
+Fimalgoritmo 
+
+ 
+
+6- Algoritmo "pesquisa" 
+
+  
+
+Var 
+
+   nf,sair,totals,total:inteiro 
+
+   salario,medias,mediaf:real 
+
+  
+
+Inicio 
+
+   repita 
+
+      escreval(" Digite o seu salario:") 
+
+      leia(salario) 
+
+      totals<-totals+salario 
+
+      escreval(" Digite o numero de filhos:") 
+
+      leia(nf) 
+
+      totalf<-totalf+nf 
+
+      se salario <>0 entao 
+
+         cont<-cont+1 
+
+      fimse 
+
+      escreval(" Deseja repetir o processo? Digite 1 (sim) 2 (nao)") 
+
+      leia(sair) 
+
+   ate sair ="nao" 
+
+   medias<- salario/cont 
+
+   mediaf<-nf/cont 
+
+   escreval(" A média de salario da população é de:", medias) 
+
+   escreval(" A média de filhos da população é de:", mediaf) 
+
+Fimalgoritmo 
