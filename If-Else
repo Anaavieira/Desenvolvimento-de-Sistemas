@@ -1,0 +1,184 @@
+Desenvolvimento de Sistemas 
+
+--Exercício 01 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+    public static void main(String[] args) { 
+        Scanner leia = new Scanner(System.in); 
+ 
+        int a,b,s,si; 
+ 
+        System.out.println("Digite um número:"); 
+        a = leia.nextInt(); 
+        System.out.println("Digite um número:"); 
+        b = leia.nextInt(); 
+ 
+        if (a>b) { 
+            s = a-b; 
+            System.out.println("A difereça dos números é de:"+s); 
+        } 
+        else{ 
+            si = b-a; 
+            System.out.println("A diferença dos números é de:" +si); 
+        } 
+    } 
+} 
+
+ 
+
+--Exercício 02 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+ 
+        double n1,n2,n3,n4,media; 
+ 
+        System.out.println("Digite a nota 1: "); 
+ 
+        n1 = leia.nextDouble(); 
+ 
+ 
+        System.out.println("Digite a nota 2: "); 
+ 
+        n2 = leia.nextDouble(); 
+ 
+ 
+        System.out.println("Digite a nota 3: "); 
+ 
+        n3 = leia.nextDouble(); 
+ 
+ 
+ 
+        System.out.println("Digite a nota 4: "); 
+ 
+        n4 = leia.nextDouble(); 
+ 
+        media = n1 + n2+ n3 + n4  /2 ; 
+ 
+ 
+ 
+        if (media>=5){ 
+ 
+            System.out.println(" Você está Aprovado(a/e)"); 
+ 
+        } 
+ 
+        else{ 
+ 
+            System.out.println("Você esta Reprovado(a/e)"); 
+ 
+        } 
+ 
+ 
+    } 
+ 
+}  
+ 
+
+--Exercício 03 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+
+        int a,b,c; 
+ 
+        System.out.println("Digite 3 valores:"); 
+ 
+        a = leia.nextInt(); 
+ 
+        b = leia.nextInt(); 
+ 
+        c = leia.nextInt(); 
+ 
+ 
+ 
+        int troca; 
+ 
+ 
+ 
+        if (a > b) { 
+ 
+            troca = a; 
+ 
+            a = b; 
+ 
+            b = troca; 
+ 
+        } 
+ 
+        if (b > c) { 
+ 
+            troca = b; 
+ 
+            b = c; 
+ 
+            c = troca; 
+ 
+        } 
+ 
+        if (a > b) { 
+ 
+            troca = a; 
+ 
+            a = b; 
+ 
+            b = troca; 
+ 
+        } 
+ 
+        System.out.println("OS números em ordem crescente são:"+ a + ","+ b + "," + c); 
+
+
+--Exercício 04 
+
+import java.util.Scanner; 
+ 
+ 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+ 
+ 
+        Scanner leia = new Scanner(System.in); 
+ 
+ 
+ 
+        int num ; 
+ 
+ 
+ 
+        System.out.println("Digite quatro valores inteiros:"); 
+ 
+ 
+ 
+        for (int i = 0; i < 4; i++) { 
+ 
+            num = leia.nextInt(); 
+ 
+ 
+ 
+            if (num % 2 ==0 && num % 3 == 0) { 
+ 
+                System.out.println("O número"+ num + "é divisível por 2 e 3 ao mesmmo tempo"); 
+ 
+            } 
+ 
+        } 
+ 
+    } 
+ 
+} 
