@@ -1,0 +1,138 @@
+ESTRUTURA PARA  
+
+
+ 
+
+1 Algoritmo "EstrururaPara" 
+
+Var 
+
+i:inteiro  
+
+Inicio 
+
+para i <- 0 ate 10 passo 2 faca 
+
+Escreval  (i) 
+
+fimpara  
+
+Fimalgoritmo 
+
+ 
+
+ 2 Algoritmo "EstruturaPara" 
+
+Var 
+
+i:inteiro  
+
+Inicio 
+
+para i<-50 ate 100 passo 6 faca 
+
+escreval(i) 
+
+fimpara 
+
+Fimalgoritmo 
+
+ 
+
+ 
+
+ 3 Algoritmo "de 100 a 1" 
+
+Var 
+
+i:inteiro 
+
+Inicio 
+
+para i<- 100 até 1 passo -10 faca 
+
+escreval(i) 
+
+Fimpara 
+
+Fimalgoritmo 
+
+ 
+
+4 Algoritmo "EstruturaPara" 
+
+Var 
+
+i,n,cont:inteiro 
+
+Inicio 
+
+para  i<- 1 ate 10 faca 
+
+escreval ("Entre com um numero:") 
+
+leia (n) 
+
+se (n>10) entao 
+
+cont<-cont+1 
+
+fimse 
+
+fimpara 
+
+escreval("o total de números maior que 10 é", cont) 
+
+Fimalgoritmo 
+
+ 
+
+5 Algoritmo "Somade10" 
+
+Var 
+
+i,n,somarN:inteiro 
+
+Inicio 
+
+para  i<- 1 ate 10 faca 
+
+escreval ("Entre com um numero: ") 
+
+leia (n) 
+
+somarN<-somarN+n 
+
+fimpara 
+
+escreval("a soma dos numeros é: ", somarN) 
+
+Fimalgoritmo 
+
+ 
+
+6 Algoritmo "Somade10" 
+
+  
+
+Var 
+
+i,n,somarN:inteiro 
+
+Inicio 
+
+para  i<- 1 ate 10 faca 
+
+escreval ("Entre com um numero: ") 
+
+leia (n) 
+
+somarN<-somarN+n 
+
+fimpara 
+
+escreval("a soma dos numeros é: ", somarN) 
+
+Fimalgoritmo 
+
+ 
