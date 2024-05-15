@@ -1,0 +1,167 @@
+Desenvolvimento de Sistemas 
+
+While 
+
+ import java.util.Scanner; 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+ 
+        int i, qtd=0, resp=1; 
+ 
+        while (resp==1) 
+        { 
+            qtd++; 
+            System.out.println(); 
+            i=1; 
+            while (i<=20){ 
+                System.out.println("Valor = "+i); 
+                i++; // i=i+1 
+            } 
+ 
+            System.out.println(); 
+            System.out.println("\n Quantidade de execuções:"+qtd); 
+            System.out.println("Deseja continuar?"); 
+            System.out.println("Tecle [1] para SIM / [2] para NÃO"); 
+            System.out.println(); 
+            resp= leia.nextInt(); 
+        } 
+ 
+    } 
+} 
+
+ 
+
+While..Do 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+ 
+        int i, qtd = 0, resp = 1; 
+ 
+        do { 
+            System.out.println(); 
+            i = 1; 
+            qtd++; 
+            do { 
+                System.out.println("Valor = " + i); 
+                i++; 
+            } 
+            while (i <= 5); 
+            System.out.println(); 
+            System.out.println("\n Quantidade de execuções:" + qtd); 
+            System.out.println("Deseja continuar?"); 
+            System.out.println("Tecle [1] para SIM / [2] para NÃO"); 
+            System.out.println(); 
+            resp = leia.nextInt(); 
+        } 
+        while (resp==1); 
+    } 
+} 
+
+
+
+FOR 
+
+import java.util.Scanner; 
+ 
+ 
+public class Main { 
+    public static void main(String[] args) { 
+        Scanner leia = new Scanner(System.in); 
+ 
+        int I, resp=1, qtd=0; 
+        System.out.println(); 
+        while (resp==1) 
+        { 
+            qtd++; 
+        for (I = 1; I <= 5; I++) 
+            System.out.println("Valor = " + I); 
+ 
+            System.out.println(); 
+            System.out.println("\nQuantidade de Execuções:"+ I); 
+            System.out.println("Deseja continuar?"); 
+            System.out.println("Tecle [1] para SIM / [2] para NÃO"); 
+            System.out.println(); 
+            resp= leia.nextInt(); 
+ 
+    } 
+} 
+} 
+
+ 
+
+Exercício 1 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+ 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+ 
+        int i=15; 
+        int q, resp=1; 
+ 
+        while (i<=200) 
+        { 
+ 
+             q=i*i; 
+            System.out.println("O quadrado de: "+i+" é " +q); 
+            i++; 
+            } 
+ 
+    } 
+} 
+ 
+
+ 
+
+Exercício 2 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+        int i,soma = 0; 
+ 
+        for (i=1;i<=100;++i) { 
+            soma = soma + i; 
+ 
+        } 
+        System.out.println("A soma de todos os números inteiros de 1 a 100 é " + soma); 
+        } 
+    } 
+
+Exercício 3 
+
+import java.util.Scanner; 
+ 
+public class Main { 
+    public static void main(String[] args) { 
+ 
+        Scanner leia = new Scanner(System.in); 
+        int i=1 ; 
+ 
+        for (i=1; i<+30;i++){ 
+ 
+           if ( i % 4 == 0) { 
+               System.out.println("Divisivél por 4: "+i); 
+           } 
+           } 
+ 
+        } 
+        } 
+
+ 
