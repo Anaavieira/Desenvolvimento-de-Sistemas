@@ -1,0 +1,463 @@
+Lista de Técnica e Programção de Algoritmo
+
+Dupla: Ana Beatriz Vieira
+
+1 
+
+Algoritmo "IPVA" 
+
+Var 
+
+nplaca,mes:inteiro 
+
+Inicio 
+
+Escreval("Digite o ultimo numero da placa do veiculo:") 
+
+leia(nplaca) 
+
+escolha (nplaca) 
+
+caso 1 
+
+escreval("O mês do pagamento do PVA é em janeiro") 
+
+caso2 
+
+escreval("O mês do pagamento do PVA é em Fevereiro") 
+
+caso 3 
+
+escreval("O mês do pagamento do PVA é em Março") 
+
+caso 4 
+
+escreval("O mês do pagamento do PVA é em Abril") 
+
+caso 5 
+
+escreval("O mês do pagamento do PVA é em Maio") 
+
+caso 6 
+
+escreval("O mês do pagamento do PVA é em junho") 
+
+caso 7 
+
+escreval("O mês do pagamento do PVA é em julho") 
+
+caso 8 
+
+escreval("O mês do pagamento do PVA é em Agosto") 
+
+caso 9 
+
+escreval("O mês do pagamento do PVA é em Setembro") 
+
+caso 10 
+
+escreval("O mês do pagamento do PVA é em Outubro") 
+
+caso 11 
+
+escreval("O mês do pagamento do PVA é em Novembro") 
+
+caso 12 
+
+escreval("O mês do pagamento do PVA é em Dezembro") 
+
+outrocaso 
+
+   escreval("Opção invalida") 
+
+fimescolha 
+
+Fimalgoritmo 
+
+2  
+
+Algoritmo "trimestre" 
+
+  
+
+Var 
+
+  
+
+   mes:inteiro 
+
+Inicio 
+
+   escreva (" digite o mes:") 
+
+   leia(mes) 
+
+   escolha  (mes) 
+
+   caso 1 
+
+      escreva("primeiro trimestre") 
+
+   caso 2 
+
+      escreva ("primeiro trimestre") 
+
+   caso 3 
+
+      escreva ("primeiro trimestre") 
+
+   caso 4 
+
+      escreva("segundo trimestre") 
+
+   caso 5 
+
+      escreva ("segundo trimestre") 
+
+   caso 6 
+
+      escreva ("segundo trimestre") 
+
+   caso 7 
+
+      escreva("terceiro trimestre") 
+
+   caso 8 
+
+      escreva ("terceiro trimestre") 
+
+   caso 9 
+
+      escreva ("terceiro trimestre") 
+
+   caso 10 
+
+      escreva("quarto trimestre") 
+
+   caso 11 
+
+      escreva ("quarto trimestre") 
+
+   caso 12 
+
+      escreva ("quarto trimestre") 
+
+   outrocaso 
+
+   escreval("Opção invalida") 
+
+   fimescolha 
+
+Fimalgoritmo 
+
+  
+
+3 
+
+Algoritmo "calculadora" 
+
+Var 
+
+n,n1,n2:real 
+
+menu:inteiro 
+
+Inicio 
+
+Escreval("Digite o primeiro numero") 
+
+leia(n1) 
+
+Escreval("Digite o segundo numero") 
+
+leia(n2) 
+
+escreval("[1] soma") 
+
+escreval("[2] subtração") 
+
+escreval("[3] multiplicação") 
+
+escreval("[4] Divisão") 
+
+Escreval("Escolha uma opção do menu") 
+
+leia(menu) 
+
+escolha (menu) 
+
+caso 1 
+
+Escreval(" A soma é:", n1+n2) 
+
+caso 2 
+
+Escreval("A diferença é:",n1-n2) 
+
+caso 3 
+
+Escreval(" O produto é:",n1*n2) 
+
+caso 4 
+
+Escreval(" A divisão é:" n1/n2) 
+
+outrocaso 
+
+Escreval("Opção invalida") 
+
+fimescolha 
+
+Fimalgoritmo 
+
+  
+
+4 
+
+Algoritmo "Situação" 
+
+Var 
+
+nome:caractere 
+
+nota:inteiro 
+
+Inicio 
+
+Escreval("Digite o nome do aluno:") 
+
+leia(nome) 
+
+Escreval("Digite a nota:") 
+
+leia(nota) 
+
+escolha (nota) 
+
+caso 1,2 
+
+Escreval("Nota pessima") 
+
+caso 3,4 
+
+Escreval("Nota ruim") 
+
+caso 5,6 
+
+Escreval("Nota pouco ruim") 
+
+caso 7 
+
+Escreval("Nota boa") 
+
+caso 8,9 
+
+Escreval("Nota muito boa") 
+
+caso 10 
+
+Escreval("Nota excelente") 
+
+Outrocaso 
+
+Escreval("Opção Invalida") 
+
+fimescolha 
+
+Fimalgoritmo 
+
+  
+
+5  
+
+Algoritmo "Estado civil" 
+
+Var 
+
+estado:caractere 
+
+Inicio 
+
+Escreval("Escolha seu estado civil:") 
+
+Escreval("[S]") 
+
+Escreval("[C]") 
+
+Escreval("[D]") 
+
+Escreval("[V]") 
+
+leia(estado) 
+
+escolha (estado) 
+
+caso "S" 
+
+Escreval("HURUL! Você é solteiro") 
+
+caso "C" 
+
+escreval("Parabens! Voce é casado") 
+
+caso"D" 
+
+escreval("Bem feito! Você é divorciado") 
+
+caso "V" 
+
+Escreval("Lamento! Você é viuvo") 
+
+outrocaso 
+
+Escreval(" Opção Invalida") 
+
+fimescolha 
+
+Fimalgoritmo 
+
+6 
+
+Algoritmo "lanchonete" 
+
+  
+
+Var 
+
+  
+
+   bebida,comida,código:inteiro 
+
+  
+
+Inicio 
+
+   escreval("X-Salada        100       8,00") 
+
+   escreval("X-tudo          101       9,00") 
+
+   escreval("Hamburguer      102       7,00 ") 
+
+   escreval("Misto           103       6,00") 
+
+   escreval("Suco            200       3,00") 
+
+   escreval("Refrigerante    201       4,00") 
+
+   escreval("Agua            202       2,00") 
+
+   escreval 
+
+   escreval("Digite o código da  comida:") 
+
+   leia(comida) 
+
+   escreval("Digite o codigo da bebida:") 
+
+   leia (bebida) 
+
+   escolha (comida) 
+
+   caso 100 
+
+      comida<-8,00 
+
+   caso 101 
+
+      comida<-9,00 
+
+   caso 102 
+
+      comida<- 7,00 
+
+   caso 103 
+
+      comida<-6,00 
+
+   fimescolha 
+
+   escolha (bebida) 
+
+   caso 200 
+
+      bebida<-3,00 
+
+   caso 201 
+
+      bebida<-4,00 
+
+   caso 202 
+
+      bebida<-2,00 
+
+      Escreval(" O preço total é de:",comida+bebida) 
+
+   outrocaso 
+
+      escreval("Opção Invalida") 
+
+   fimescolha 
+
+Fimalgoritmo 
+
+ 
+
+7- 
+
+Algoritmo "venda" 
+
+Var 
+
+   venda,pagam,totalfinal:real 
+
+Inicio 
+
+   Escreval("Digite o valor de venda:") 
+
+   leia(venda) 
+
+   Escreval("Escolha condição de pagamento:") 
+
+   Escreval(" [1] Vista") 
+
+   Escreval(" [2] Prazo 30 dias") 
+
+   Escreval(" [3] Prazo 60 dias") 
+
+   Escreval(" [4] Prazo 90 dias") 
+
+   Escreval(" [5]Prazo 120 dias") 
+
+   leia(pagam) 
+
+   escolha (pagam) 
+
+   caso 1 
+
+      totalfinal<-venda-((venda*10)/100) 
+
+   caso 2 
+
+      totalfinal<- venda-((venda*5/)100) 
+
+   caso 3 
+
+      totalfinal<- venda 
+
+   caso 4 
+
+      totalfinal<- venda+((venda*5)/100) 
+
+   caso 5 
+
+      totalfinal<- venda+((venda*10)/100) 
+
+      Escreval(" TOTAL:",totalfinal) 
+
+   outrocaso 
+
+      escreval("Opção Invalida") 
+
+   fimescolha 
+
+Fimalgoritmo 
