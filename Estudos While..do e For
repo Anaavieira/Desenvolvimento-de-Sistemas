@@ -1,0 +1,338 @@
+Estudos de While, While..do e For 
+
+Desenvolvimento de Sistemas 
+
+
+Escreva um programa em Java que solicite ao usuário que insira um número. 
+
+O programa deve continuar solicitando números até que o usuário insira o número 0.  
+
+Quando o usuário inserir 0, o programa deve exibir a soma de todos os números inseridos até esse ponto. 
+
+  
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+        int n; 
+
+        int soma = 0; 
+
+  
+
+        System.out.println("Entre com um número ou 0 para sair:"); 
+
+        n = leia.nextInt(); 
+
+  
+
+                while ( n != 0){ 
+
+                   soma = soma +n; 
+
+                    System.out.println("Entre com um número ou 0 para sair:"); 
+
+                    n= leia.nextInt(); 
+
+  
+
+                } 
+
+        System.out.println("A soma de todos os números: "+soma); 
+
+  
+
+  
+
+    } 
+
+} 
+
+  
+
+Escreva um programa em Java que solicite ao usuário que insira um número. 
+
+O programa deve continuar solicitando números até que o usuário insira um número negativo. 
+
+Quando o usuário inserir um número negativo, o programa deve exibir a média de todos  
+
+os números inseridos até esse ponto. 
+
+  
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+        int n; 
+
+        int soma=0; 
+
+        int contador=0; 
+
+  
+
+  
+
+        System.out.println("Entre com um número ou número negativo para sair:"); 
+
+        n = leia.nextInt(); 
+
+        while ( n>=0){ 
+
+            soma = soma+ n ; 
+
+            contador++; 
+
+            System.out.println("Entre com um número ou número negativo para sair:"); 
+
+            n = leia.nextInt(); 
+
+  
+
+        } 
+
+        double media = (double) soma/contador; 
+
+        System.out.println("A média é: "+media ); 
+
+  
+
+  
+
+    } 
+
+} 
+
+  
+
+Escreva um programa em Java que solicite ao usuário que insira um número inteiro positivo. 
+
+O programa deve exibir todos os números de 1 até o número inserido pelo usuário. 
+
+  
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+       int n,i; 
+
+       int contador=1; 
+
+  
+
+        System.out.println("Digite um número inteiro positivo:"); 
+
+        n = leia.nextInt(); 
+
+  
+
+        System.out.println("Numeros de 1 até " + n); 
+
+        while(contador<=n){ 
+
+            System.out.println(contador); 
+
+            contador++; 
+
+  
+
+        } 
+
+  
+
+  
+
+    } 
+
+} 
+
+  
+
+Escreva um programa em Java que solicite ao usuário que adivinhe um número secreto. O número secreto é 7. 
+
+O programa deve continuar solicitando ao usuário que insira um número até que o 
+
+usuário adivinhe corretamente o número secreto. 
+
+  
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+       int n; 
+
+       int ns=7; 
+
+  
+
+  
+
+        System.out.println("Bem vindo ao jogo de advinhação!!"); 
+
+  
+
+        do { 
+
+            System.out.println("Digite um número de (1 a 10)"); 
+
+            n = leia.nextInt(); 
+
+  
+
+            if (n > ns) { 
+
+                System.out.println("Tente um número menor"); 
+
+            } else if (n < ns) { 
+
+                System.out.println("Tente um número maior"); 
+
+            } else { 
+
+                System.out.println("Parabéns você acertou!!"); 
+
+            } 
+
+        } 
+
+        while (n!=ns); 
+
+    } 
+
+} 
+
+  
+
+Agora com a maquina sorteando o número: 
+
+  
+
+import java.util.Random; 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+        Random random = new Random(); 
+
+       int n; 
+
+       int ns= random.nextInt(100)+1; 
+
+  
+
+  
+
+        System.out.println("Bem vindo ao jogo de advinhação!!"); 
+
+  
+
+        do { 
+
+            System.out.println("Digite um número de (1 a 100)"); 
+
+            n = leia.nextInt(); 
+
+  
+
+            if (n > ns) { 
+
+                System.out.println("Tente um número menor"); 
+
+            } else if (n < ns) { 
+
+                System.out.println("Tente um número maior"); 
+
+            } 
+
+            else { 
+
+                System.out.println("Parabéns você acertou!!"); 
+
+            } 
+
+        } 
+
+        while (n!=ns); 
+
+    } 
+
+} 
+
+Escreva um programa em Java que calcule a soma dos números pares de 1 a 100 e exiba o resultado. 
+
+  
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+  
+
+        Scanner leia = new Scanner(System.in); 
+
+  
+
+        int soma = 0; 
+
+        for (int i = 2; i <100 ; i+=2) { 
+
+  
+
+            soma= soma+i; 
+
+        } 
+
+        System.out.println("A soma é:" +soma); 
+
+    } 
+
+} 
