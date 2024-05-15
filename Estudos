@@ -1,0 +1,101 @@
+1- Algoritmo "mediaponderada" 
+
+Var 
+
+n1,n2,n3,media:real 
+
+nome:caracter 
+
+Inicio 
+
+//entrada 
+
+escreval("Digite o nome do aluno:") 
+
+leia(nome) 
+
+escreval("Digite a nota 1 ") 
+
+leia(n1) 
+
+escreval("Digite a nota 2") 
+
+leia(n2) 
+
+escreval("Digite a nota 3") 
+
+leia(n3) 
+
+//calculo 
+
+media<- (3*n1+4*n2+3*n3)/10 
+
+//saida 
+
+escreval("A média final de ",nome," é:", media) 
+
+Fimalgoritmo 
+
+ 
+
+2- Algoritmo "temperatura" 
+
+Var 
+
+tc,tf:real 
+
+Inicio 
+
+//entrada 
+
+escreval("Digite a temperatura em graus Celsius (C°)") 
+
+leia(tc) 
+
+//processo 
+
+tf<-(tc * 9/5) + 32 
+
+//saida 
+
+escreval("A temperatura em graus Fahrenheit é:", tf) 
+
+Fimalgoritmo 
+
+ 
+
+3- Algoritmo "numerointeiro" 
+
+Var 
+
+n1,n2,soma,subtracao,produto:inteiro 
+
+Inicio 
+
+//entrada 
+
+escreval("Digite o primeiro número, sendo ele inteiro") 
+
+leia(n1) 
+
+escreval("Digite o segundo número, sendo ele inteiro") 
+
+leia(n2) 
+
+//processo 
+
+soma<- n1+n2 
+
+subtracao<-n1-n2 
+
+produto<-n1*n2 
+
+//saida 
+
+escreval("A soma dos números é:", soma) 
+
+escreval("A diferença dos números é:", subtracao) 
+
+escreval("O produto dos números é:", produto) 
+
+Fimalgoritmo 
